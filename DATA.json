@@ -1,0 +1,15 @@
+{
+    "users": [
+        {
+            "Name": "Rishav Ranjan",
+            "Age": 22,
+            "Gender": "male",
+            "Disease": "Hypertension ",
+            "Sympts": [
+                "chest_pain",
+                "dizziness",
+                "lack_of_concentration"
+            ]
+        }
+    ]
+}
