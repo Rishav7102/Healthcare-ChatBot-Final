@@ -6,11 +6,18 @@ Healthcare chatbot to predict Diseases based on patient symptoms.
 </p>
 
 # How to use:
-## create a venv 
-virtualenv venv 
-
-## activate it and install reqs
+## create a venv and activate it 
+<!-- virtualenv venv  -->
+pip install virtualenv
+python -m venv venv
+<!-- For Mac Users write this command to activate it -->
 source venv/bin/activate
+<!-- For Windows Users write this command to activate it-->
+.\venv\Scripts\activate
+
+
+
+## install requirements
 pip install -r requirements.txt 
 python -m spacy download en_core_web_sm
 
